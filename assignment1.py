@@ -11,12 +11,6 @@ def find_period(L0, L1):
     T1 = 2 * np.pi * np.sqrt(L1 / g)
     
     return T0, T1
-
-
-if __name__ == "__main__":
-    L0 = 2
-    L1 = 10
-    T0, T1 = find_period(L0, L1)
     
     print("\nResults:")
     print(f"T0 (L0={L0} m) = {T0:.2f} s")
